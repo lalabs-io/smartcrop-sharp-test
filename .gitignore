@@ -1,6 +1,9 @@
 # Build
 build
 
+# Photo Galleries
+src/photo-galleries/**
+
 # Node.js
 node_modules
 npm-debug.log
