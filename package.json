@@ -1,0 +1,53 @@
+{
+  "name": "smartcrop-sharp-test",
+  "description": "Smartcrop and Amazon Rekognition testing for Strapi upload plugin thumbnail cropping with face detection.",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "node src/index.js",
+    "lint": "eslint src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Kwong <brandon@lalabs.io>",
+  "dependencies": {
+    "aws-sdk": "^2.744.0",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
+    "sharp": "^0.26.0",
+    "smartcrop-sharp": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "prettier": "^2.1.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb-base",
+      "prettier"
+    ],
+    "rules": {
+      "camelcase": "off",
+      "consistent-return": "off",
+      "no-console": "off",
+      "no-param-reassign": "off",
+      "no-plusplus": [
+        "error",
+        {
+          "allowForLoopAfterthoughts": true
+        }
+      ]
+    }
+  },
+  "prettier": {
+    "jsxBracketSameLine": true,
+    "jsxSingleQuote": false,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all"
+  }
+}
