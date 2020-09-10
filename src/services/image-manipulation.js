@@ -9,8 +9,8 @@ const AWS_OPTIONS = {
 };
 
 const THUMBNAIL_RESIZE_OPTIONS = {
-  width: 245,
-  height: 138,
+  width: 320,
+  height: 180,
   fit: 'cover',
 };
 
